@@ -58,6 +58,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "virtual:25073a818384dcc290b2f57ca02abf686eaabbc9156bf8991d3eebd2f4c4a41c672baa3050e6fbe2ba67c65f947e20ff04c7f4e2833bb2e252aa4e6cb208d7ff#npm:7.9.4"
       ],
       [
+        "@babel/runtime",
+        "npm:7.9.6"
+      ],
+      [
         "@testing-library/jest-dom",
         "npm:5.7.0"
       ],
@@ -90,6 +94,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "virtual:25073a818384dcc290b2f57ca02abf686eaabbc9156bf8991d3eebd2f4c4a41c672baa3050e6fbe2ba67c65f947e20ff04c7f4e2833bb2e252aa4e6cb208d7ff#npm:0.0.0-experimental-33c3af284"
       ],
       [
+        "react-is",
+        "npm:16.13.1"
+      ],
+      [
         "styled-components",
         "virtual:25073a818384dcc290b2f57ca02abf686eaabbc9156bf8991d3eebd2f4c4a41c672baa3050e6fbe2ba67c65f947e20ff04c7f4e2833bb2e252aa4e6cb208d7ff#npm:5.1.0"
       ],
@@ -112,6 +120,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/plugin-transform-typescript", "virtual:25073a818384dcc290b2f57ca02abf686eaabbc9156bf8991d3eebd2f4c4a41c672baa3050e6fbe2ba67c65f947e20ff04c7f4e2833bb2e252aa4e6cb208d7ff#npm:7.9.6"],
             ["@babel/preset-env", "virtual:25073a818384dcc290b2f57ca02abf686eaabbc9156bf8991d3eebd2f4c4a41c672baa3050e6fbe2ba67c65f947e20ff04c7f4e2833bb2e252aa4e6cb208d7ff#npm:7.9.6"],
             ["@babel/preset-react", "virtual:25073a818384dcc290b2f57ca02abf686eaabbc9156bf8991d3eebd2f4c4a41c672baa3050e6fbe2ba67c65f947e20ff04c7f4e2833bb2e252aa4e6cb208d7ff#npm:7.9.4"],
+            ["@babel/runtime", "npm:7.9.6"],
             ["@testing-library/jest-dom", "npm:5.7.0"],
             ["@testing-library/react", "virtual:25073a818384dcc290b2f57ca02abf686eaabbc9156bf8991d3eebd2f4c4a41c672baa3050e6fbe2ba67c65f947e20ff04c7f4e2833bb2e252aa4e6cb208d7ff#npm:10.0.4"],
             ["@types/jest", "npm:25.2.2"],
@@ -120,6 +129,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "npm:26.0.1"],
             ["react", "npm:0.0.0-experimental-33c3af284"],
             ["react-dom", "virtual:25073a818384dcc290b2f57ca02abf686eaabbc9156bf8991d3eebd2f4c4a41c672baa3050e6fbe2ba67c65f947e20ff04c7f4e2833bb2e252aa4e6cb208d7ff#npm:0.0.0-experimental-33c3af284"],
+            ["react-is", "npm:16.13.1"],
             ["styled-components", "virtual:25073a818384dcc290b2f57ca02abf686eaabbc9156bf8991d3eebd2f4c4a41c672baa3050e6fbe2ba67c65f947e20ff04c7f4e2833bb2e252aa4e6cb208d7ff#npm:5.1.0"],
             ["typescript", "patch:typescript@npm%3A3.9.2#builtin<compat/typescript>::version=3.9.2&hash=8cac75"]
           ],
@@ -7034,7 +7044,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["hoist-non-react-statics", "npm:3.3.2"],
             ["react", "npm:0.0.0-experimental-33c3af284"],
             ["react-dom", "virtual:25073a818384dcc290b2f57ca02abf686eaabbc9156bf8991d3eebd2f4c4a41c672baa3050e6fbe2ba67c65f947e20ff04c7f4e2833bb2e252aa4e6cb208d7ff#npm:0.0.0-experimental-33c3af284"],
-            ["react-is", null],
+            ["react-is", "npm:16.13.1"],
             ["shallowequal", "npm:1.1.0"],
             ["supports-color", "npm:5.5.0"]
           ],
@@ -7112,6 +7122,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/plugin-transform-typescript", "virtual:25073a818384dcc290b2f57ca02abf686eaabbc9156bf8991d3eebd2f4c4a41c672baa3050e6fbe2ba67c65f947e20ff04c7f4e2833bb2e252aa4e6cb208d7ff#npm:7.9.6"],
             ["@babel/preset-env", "virtual:25073a818384dcc290b2f57ca02abf686eaabbc9156bf8991d3eebd2f4c4a41c672baa3050e6fbe2ba67c65f947e20ff04c7f4e2833bb2e252aa4e6cb208d7ff#npm:7.9.6"],
             ["@babel/preset-react", "virtual:25073a818384dcc290b2f57ca02abf686eaabbc9156bf8991d3eebd2f4c4a41c672baa3050e6fbe2ba67c65f947e20ff04c7f4e2833bb2e252aa4e6cb208d7ff#npm:7.9.4"],
+            ["@babel/runtime", "npm:7.9.6"],
             ["@testing-library/jest-dom", "npm:5.7.0"],
             ["@testing-library/react", "virtual:25073a818384dcc290b2f57ca02abf686eaabbc9156bf8991d3eebd2f4c4a41c672baa3050e6fbe2ba67c65f947e20ff04c7f4e2833bb2e252aa4e6cb208d7ff#npm:10.0.4"],
             ["@types/jest", "npm:25.2.2"],
@@ -7120,6 +7131,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "npm:26.0.1"],
             ["react", "npm:0.0.0-experimental-33c3af284"],
             ["react-dom", "virtual:25073a818384dcc290b2f57ca02abf686eaabbc9156bf8991d3eebd2f4c4a41c672baa3050e6fbe2ba67c65f947e20ff04c7f4e2833bb2e252aa4e6cb208d7ff#npm:0.0.0-experimental-33c3af284"],
+            ["react-is", "npm:16.13.1"],
             ["styled-components", "virtual:25073a818384dcc290b2f57ca02abf686eaabbc9156bf8991d3eebd2f4c4a41c672baa3050e6fbe2ba67c65f947e20ff04c7f4e2833bb2e252aa4e6cb208d7ff#npm:5.1.0"],
             ["typescript", "patch:typescript@npm%3A3.9.2#builtin<compat/typescript>::version=3.9.2&hash=8cac75"]
           ],
