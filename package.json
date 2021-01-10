@@ -13,7 +13,7 @@
     "test-cov": "jest --collectCoverage",
     "prepub": "yarn build",
     "pub": "yarn prepub && yarn npm publish --access public",
-    "tsc": "yarn dlx --package typescript tsc"
+    "tsc": "tsc --noEmit"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.10",
