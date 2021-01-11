@@ -3,16 +3,18 @@
   "version": "0.0.0",
   "main": "dist/index.js",
   "source": "src/index.tsx",
+  "types": "dist/index.d.ts",
   "repository": "git@github.com:hamlim/template-project.git",
   "author": "Matt Hamlin <matthewjameshamlin@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "babel src/ --out-dir dist/ --extensions '.ts,.tsx'",
+    "prebuild": "rm -rf dist/",
+    "build": "babel src/ --out-dir dist/ --extensions '.ts,.tsx' && tsc",
     "test": "jest",
     "test-watch": "jest --watch",
     "test-cov": "jest --collectCoverage",
     "prepub": "yarn build",
-    "pub": "yarn prepub && yarn npm publish --access public",
+    "pub": "yarn prepub && yarn publish --access public",
     "tsc": "tsc --noEmit"
   },
   "devDependencies": {
