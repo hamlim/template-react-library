@@ -14,6 +14,20 @@ yarn add TODO
 // TODO
 ```
 
+## Contributing:
+
+### `build`
+
+```sh
+yarn turbo run build
+```
+
+### `test`
+
+```sh
+yarn turbo run test
+```
+
 ### Tools:
 
 - Typescript
