@@ -5,7 +5,7 @@ Make sure to update this with the right documentation!
 ## Installation:
 
 ```sh
-yarn add TODO
+bun add TODO
 ```
 
 ## Usage:
@@ -19,17 +19,17 @@ yarn add TODO
 ### `build`
 
 ```sh
-yarn turbo run build
+bun run build
 ```
 
 ### `test`
 
 ```sh
-yarn turbo run test
+bun test
 ```
 
 ### Tools:
 
 - Typescript
-- Babel
-- Jest
+- SWC
+- Bun
